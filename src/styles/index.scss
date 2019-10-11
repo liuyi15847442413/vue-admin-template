@@ -35,7 +35,9 @@ a:focus,
 a:active {
   outline: none;
 }
-
+:focus {
+  outline: 0;
+}
 a,
 a:focus,
 a:hover {
